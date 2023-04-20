@@ -343,7 +343,7 @@ header .logo .logo-item .logo-img {
 header nav .toggle {
   position: absolute;
   right: 15px;
-  font-size: 32px;
+  font-size: 30px;
   top: 50%;
   transform: translateY(-50%);
   border: 1px solid var(--main-color);
