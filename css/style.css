@@ -358,7 +358,7 @@ header nav .toggle {
   position: absolute;
   right: 15px;
   font-size: 30px;
-  top: 50%;
+  top: 80px;
   transform: translateY(-50%);
   border: 1px solid var(--main-color);
   padding: 3px 10px;
