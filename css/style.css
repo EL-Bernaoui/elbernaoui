@@ -329,6 +329,20 @@ header {
   z-index: 50;
   transition: var(--transition);
 }
+header .palestine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #dd0000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+header .palestine img {
+  width: 20px;
+}
 header .container {
   display: flex;
   justify-content: space-between;

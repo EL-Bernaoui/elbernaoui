@@ -1,678 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="My name is Achraf El beranoui, i'm a web developer based in Morocco, exactly in Marrakech. I'm self-taught developer, interested in entrepreneurship and digital world."
-    />
-    <meta name="theme-color" content="#bfdcda" />
-    <link rel="apple-touch-icon" href="images/icon.ico" />
-    <title>Portolio | EL Bernaoui</title>
 
-    <link rel="icon" href="images/icon.ico" type="image/icon type" />
-    <!-- Render All Element Normally -->
-    <link rel="stylesheet" href="css/normalize.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="My name is Achraf El beranoui, i'm a web developer based in Morocco, exactly in Marrakech. I'm self-taught developer, interested in entrepreneurship and digital world." />
+  <meta name="theme-color" content="#bfdcda" />
+  <link rel="apple-touch-icon" href="images/icon.ico" />
+  <title>Portolio | EL Bernaoui</title>
 
-    <!-- Fonts awesome link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="icon" href="images/icon.ico" type="image/icon type" />
+  <!-- Render All Element Normally -->
+  <link rel="stylesheet" href="css/normalize.css" />
 
-    <!-- Wow js link -->
-    <link rel="stylesheet" href="css/animate.css" />
+  <!-- Fonts awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Main Template CSS File -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- Start Preloader Animation -->
-    <div class="loading">
-      <div class="loading-text">
-        <span class="loading-text-words">E</span>
-        <span class="loading-text-words">L</span>
-        <span class="loading-text-words">B</span>
-        <span class="loading-text-words">E</span>
-        <span class="loading-text-words">R</span>
-        <span class="loading-text-words">N</span>
-        <span class="loading-text-words">A</span>
-        <span class="loading-text-words">O</span>
-        <span class="loading-text-words">U</span>
-        <span class="loading-text-words">I</span>
+  <!-- Wow js link -->
+  <link rel="stylesheet" href="css/animate.css" />
+
+  <!-- Main Template CSS File -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Start Preloader Animation -->
+  <div class="loading">
+    <div class="loading-text">
+      <span class="loading-text-words">E</span>
+      <span class="loading-text-words">L</span>
+      <span class="loading-text-words">B</span>
+      <span class="loading-text-words">E</span>
+      <span class="loading-text-words">R</span>
+      <span class="loading-text-words">N</span>
+      <span class="loading-text-words">A</span>
+      <span class="loading-text-words">O</span>
+      <span class="loading-text-words">U</span>
+      <span class="loading-text-words">I</span>
+    </div>
+  </div>
+  <!-- End Preloader Animation -->
+  <div class="main-content">
+    <div class="overlay"></div>
+    <!-- Start Header -->
+    <header>
+      <div class="palestine">
+        <img src="/images/flag.svg" alt="Palestine Flag">
+        <p>
+          i stand with palestine
+        </p>
+        <img src="/images/flag.svg" alt="Palestine Flag">
+      </div>
+      <div class="container">
+        <div class="logo">
+          <a href="#home" class="logo-item">
+            <img class="logo-img" width="100" height="55" src="images/header_logo.png" alt="Logo" />
+          </a>
+        </div>
+        <nav>
+          <ul class="main-nav">
+            <div class="close_btn">
+              <i class="fa fa-times-circle"></i>
+            </div>
+            <a href="#home" class="nav-logo">
+              <img src="images/header_logo.png" alt="Logo" />
+            </a>
+            <li class="lis-items">
+              <a href="#home" class="item active">Home</a>
+            </li>
+            <li class="lis-items">
+              <a href="#about" class="item">About</a>
+            </li>
+            <li class="lis-items">
+              <a href="#services" class="item">Services</a>
+            </li>
+            <li class="lis-items">
+              <a href="#portfolio" class="item">Portfolio</a>
+            </li>
+            <li class="lis-items">
+              <a href="#contact" class="item">Contact</a>
+            </li>
+          </ul>
+          <div class="toggle">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing Page -->
+    <div class="landing section" id="home">
+      <div class="container">
+        <div class="info">
+          <p class="gretting wow fadeInDownBig">Hi! Welcome To My Website</p>
+          <h2 class="wow fadeInLeft" data-wow-delay=".8s">
+            My Name Is <span class="name">Achraf</span>
+          </h2>
+          <p class="job wow fadeInLeft" data-wow-delay="1.4s">
+            I'm A <span class="typing">Web Developer</span>
+          </p>
+          <p class="desc wow fadeInLeft" data-wow-delay="1.5s">
+            I build websites. If you are a business or an individual looking
+            for an improved online presence, I want to work with you!
+          </p>
+          <div class="buttons">
+            <a href="#contact" class="special_btn wow bounceIn" data-wow-delay="1.6s">Hire Me</a>
+            <a href="#about" class="special_btn wow bounceIn" data-wow-delay="1.8s">About Me</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/landing_pic.png" alt="Personal Picture" />
+        </div>
       </div>
     </div>
-    <!-- End Preloader Animation -->
-    <div class="main-content">
-      <div class="overlay"></div>
-      <!-- Start Header -->
-      <header>
-        <div class="container">
-          <div class="logo">
-            <a href="#home" class="logo-item">
-              <img
-                class="logo-img"
-                width="100"
-                height="55"
-                src="images/header_logo.png"
-                alt="Logo"
-              />
-            </a>
+    <div class="spikes_1"></div>
+    <!-- End Landing Page -->
+    <!-- Start about -->
+    <div class="about section" id="about">
+      <div class="container">
+        <div class="about_img">
+          <img src="images/about.png" alt="Personal Picture" />
+        </div>
+        <div class="details">
+          <div class="info">
+            <span class="brief">Brief</span>
+            <h2>About Me</h2>
+            <p class="first_p">
+              My name is Achraf El bernaoui, i'm a web developer based in
+              Morocco, exactly in Marrakech. I'm self-taught developer,
+              interested in entrepreneurship and digital world.
+            </p>
+            <br />
+            <p class="second_p">
+              My job is to create awesome websites and web applications
+              characterized by high quality and new ideas and concepts. My
+              goal is to bring my client's brilliant ideas to reality and help
+              them grow their businesses.
+            </p>
           </div>
-          <nav>
-            <ul class="main-nav">
-              <div class="close_btn">
-                <i class="fa fa-times-circle"></i>
+          <div class="more_info">
+            <div>
+              <h3 class="hint">Contact Details</h3>
+              <div class="content">
+                <p>
+                  <i class="fa-solid fa-phone-flip"></i>
+                  <span>Phone Number : </span>
+                </p>
+                <p>+212 7 07 75 23 41</p>
               </div>
-              <a href="#home" class="nav-logo">
-                <img src="images/header_logo.png" alt="Logo" />
+              <div class="content">
+                <p>
+                  <i class="fa fa-envelope"></i>
+                  <span>Email : </span>
+                </p>
+                <p>elbernaouiachraf@gmail.com</p>
+              </div>
+              <div class="content">
+                <p>
+                  <i class="fa-solid fa-id-card"></i>
+                  <span>Job Status : </span>
+                </p>
+                <p>Freelancer</p>
+              </div>
+            </div>
+            <a href="resume.docx" class="special_btn" target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End about -->
+    <!-- Start Services -->
+    <div class="services section" id="services">
+      <div class="heading">
+        <h2>What i offer?</h2>
+        <p>My Services</p>
+      </div>
+      <div class="container">
+        <div class="box box_f wow slideInLeft" data-wow-offset="200">
+          <img src="images/serv_1.png" alt="" />
+          <h3>UI/UX Design</h3>
+          <p>Create a good design for your product and your Business.</p>
+        </div>
+        <div class="box box_s wow slideInLeft" data-wow-offset="200" data-wow-delay=".2s">
+          <img src="images/serv_2.png" alt="" />
+          <h3>Web Development</h3>
+          <p>Converting any idea or design into website or web application</p>
+        </div>
+        <div class="box box_t wow slideInLeft" data-wow-offset="200" data-wow-delay=".4s">
+          <img src="images/serv_3.png" alt="" />
+          <h3>Responsive Design</h3>
+          <p>
+            I can make your website responsive so you can show it in phones
+            and tablets
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <div class="portfolio section" id="portfolio">
+      <div class="heading">
+        <h2>Projects</h2>
+        <p>Latest Works</p>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="images/work_1.png" alt="Template 1" />
+          <div class="info">
+            <h3>NiceAdmin</h3>
+            <p>Dashboard with front-end technologies</p>
+            <div class="links">
+              <a href="https://github.com/EL-Bernaoui/NiceAdmin" target="_blank" class="special_btn"
+                title="Github Repository">
+                <i class="fa-brands fa-github"></i>
               </a>
-              <li class="lis-items">
-                <a href="#home" class="item active">Home</a>
+              <a href="https://el-bernaoui.github.io/NiceAdmin/" target="_blank" class="special_btn" title="Live Demo">
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/work_2.png" alt="Template 1" />
+          <div class="info">
+            <h3>Anon</h3>
+            <p>Responsive eCommerce Website</p>
+            <div class="links">
+              <a href="https://github.com/EL-Bernaoui/Anon" target="_blank" class="special_btn"
+                title="Github Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://el-bernaoui.github.io/Anon/" target="_blank" class="special_btn" title="Live Demo">
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/work_3.png" alt="Template 1" />
+          <div class="info">
+            <h3>Cara</h3>
+            <p>eCommerce Website (multiple pages)</p>
+            <div class="links">
+              <a href="https://github.com/EL-Bernaoui/cara-shop" target="_blank" class="special_btn"
+                title="Github Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://el-bernaoui.github.io/cara-shop/" target="_blank" class="special_btn" title="Live Demo">
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/work_4.png" alt="Template 1" />
+          <div class="info">
+            <h3>Quiz Application</h3>
+            <p>html css & javascript with api quiz</p>
+            <div class="links">
+              <a href="https://github.com/EL-Bernaoui/quiz-application" target="_blank" class="special_btn"
+                title="Github Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://el-bernaoui.github.io/quiz-application/" target="_blank" class="special_btn"
+                title="Live Demo">
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/work_5.png" alt="Template 1" />
+          <div class="info">
+            <h3>Portfolio</h3>
+            <p>Portfolio with configuration box</p>
+            <div class="links">
+              <a href="https://github.com/EL-Bernaoui/Portfolio-2" target="_blank" class="special_btn"
+                title="Github Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://el-bernaoui.github.io/Portfolio-2/" target="_blank" class="special_btn"
+                title="Live Demo">
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/work_6.png" alt="Template 1" />
+          <div class="info">
+            <h3>Calculator</h3>
+            <p>Dark / light calculator</p>
+            <div class="links">
+              <a href="https://github.com/EL-Bernaoui/Calculator" target="_blank" class="special_btn"
+                title="Github Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://el-bernaoui.github.io/Calculator/" target="_blank" class="special_btn" title="Live Demo">
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start Skills -->
+    <div class="skills">
+      <div class="heading">
+        <h2>My Skills</h2>
+        <p>Professional Skills</p>
+      </div>
+      <div class="container">
+        <div class="box wow fadeInDownBig" data-wow-offset="200">
+          <p class="tooltip">HTML/HTML5</p>
+          <img src="images/html_img.png" alt="html image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".1s">
+          <p class="tooltip">CSS/CSS3</p>
+          <img src="images/css_img.png" alt="css image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".2s">
+          <p class="tooltip">JAVASCRIPT</p>
+          <img src="images/js_img.png" alt="javascript image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".3s">
+          <p class="tooltip">GIT</p>
+          <img src="images/git_img.png" alt="git image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".4s">
+          <p class="tooltip">GITHUB</p>
+          <img src="images/github_img.png" alt="github image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".5s">
+          <p class="tooltip">BOOTSTRAP</p>
+          <img src="images/bootstrap_img.png" alt="Bootstrap image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".6s">
+          <p class="tooltip">SASS</p>
+          <img src="images/sass_img.png" alt="Bootstrap image" />
+        </div>
+        <div class="box wow fadeInDownBig" data-wow-offset="200" data-wow-delay=".7s">
+          <p class="tooltip">JQUERY</p>
+          <img src="images/jquery_img.png" alt="Bootstrap image" />
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Contact -->
+    <div class="contact section" id="contact">
+      <div class="heading">
+        <h2>Contact Me</h2>
+        <p>Get In Touch</p>
+      </div>
+      <div class="container">
+        <div class="contact_info">
+          <h2>Contact Info</h2>
+          <ul class="ul_info">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <p>elbernaouiachraf@gmail.com</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <p>+212 707-752341</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Marrakech, Morocco</p>
+            </li>
+          </ul>
+          <ul class="ul_social1">
+            <li>
+              <a href="https://www.linkedin.com/in/achraf-el-bernaoui-7aa426234" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ELBRN_Achraf" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/aksil49" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="form_div">
+          <h2>Send a Message</h2>
+          <form action="https://formspree.io/f/mayzyoyg" method="post">
+            <div class="flex">
+              <div>
+                <input type="text" id="f-name" name="first name" class="field" data-label=".f-name" />
+                <label for="f-name" class="f-name">First Name</label>
+                <div class="is-valid">Enter a valid name</div>
+              </div>
+              <div>
+                <input type="text" id="l-name" name="last name" class="field" data-label=".l-name" />
+                <label for="l-name" class="l-name">Last Name</label>
+              </div>
+              <div>
+                <input type="email" id="email" name="email" class="field" data-label=".email" />
+                <label for="email" class="email">Email Address</label>
+                <div class="is-valid">Enter a valid email</div>
+              </div>
+              <div>
+                <input type="number" id="phone" name="phone" class="field" data-label=".phone" />
+                <label for="phone" class="phone">Phone Number</label>
+                <div class="is-valid">Enter a valid phone</div>
+              </div>
+              <div>
+                <textarea id="textarea" name="message" class="field" data-label=".textarea"></textarea>
+                <label for="textarea" class="textarea">Write your message here...</label>
+                <div class="is-valid">This field can't be empty</div>
+              </div>
+            </div>
+            <button type="button" class="special_btn submit_btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <div class="spikes_2"></div>
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="grid">
+          <div class="box info">
+            <a href="#home">
+              <img src="images/footer_logo.png" alt="Logo" width="180" height="45" />
+            </a>
+            <p>
+              Hello there. My name is Achraf. I am a web developer, and l'm
+              very passionte and dedicated To my Work
+            </p>
+          </div>
+          <div class="box links">
+            <h2>Links</h2>
+            <ul class="ul_links">
+              <li>
+                <a href="#home">Home</a>
               </li>
-              <li class="lis-items">
-                <a href="#about" class="item">About</a>
+              <li>
+                <a href="#about">About</a>
               </li>
-              <li class="lis-items">
-                <a href="#services" class="item">Services</a>
+              <li>
+                <a href="#services">Services</a>
               </li>
-              <li class="lis-items">
-                <a href="#portfolio" class="item">Portfolio</a>
-              </li>
-              <li class="lis-items">
-                <a href="#contact" class="item">Contact</a>
+              <li>
+                <a href="#portfolio">Portfolio</a>
               </li>
             </ul>
-            <div class="toggle">
-              <i class="fa-solid fa-bars-staggered"></i>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <!-- End Header -->
-      <!-- Start Landing Page -->
-      <div class="landing section" id="home">
-        <div class="container">
-          <div class="info">
-            <p class="gretting wow fadeInDownBig">Hi! Welcome To My Website</p>
-            <h2 class="wow fadeInLeft" data-wow-delay=".8s">
-              My Name Is <span class="name">Achraf</span>
-            </h2>
-            <p class="job wow fadeInLeft" data-wow-delay="1.4s">
-              I'm A <span class="typing">Web Developer</span>
-            </p>
-            <p class="desc wow fadeInLeft" data-wow-delay="1.5s">
-              I build websites. If you are a business or an individual looking
-              for an improved online presence, I want to work with you!
-            </p>
-            <div class="buttons">
-              <a
-                href="#contact"
-                class="special_btn wow bounceIn"
-                data-wow-delay="1.6s"
-                >Hire Me</a
-              >
-              <a
-                href="#about"
-                class="special_btn wow bounceIn"
-                data-wow-delay="1.8s"
-                >About Me</a
-              >
-            </div>
           </div>
-          <div class="image">
-            <img src="images/landing_pic.png" alt="Personal Picture" />
-          </div>
-        </div>
-      </div>
-      <div class="spikes_1"></div>
-      <!-- End Landing Page -->
-      <!-- Start about -->
-      <div class="about section" id="about">
-        <div class="container">
-          <div class="about_img">
-            <img src="images/about.png" alt="Personal Picture" />
-          </div>
-          <div class="details">
-            <div class="info">
-              <span class="brief">Brief</span>
-              <h2>About Me</h2>
-              <p class="first_p">
-                My name is Achraf El bernaoui, i'm a web developer based in
-                Morocco, exactly in Marrakech. I'm self-taught developer,
-                interested in entrepreneurship and digital world.
-              </p>
-              <br />
-              <p class="second_p">
-                My job is to create awesome websites and web applications
-                characterized by high quality and new ideas and concepts. My
-                goal is to bring my client's brilliant ideas to reality and help
-                them grow their businesses.
-              </p>
-            </div>
-            <div class="more_info">
-              <div>
-                <h3 class="hint">Contact Details</h3>
-                <div class="content">
-                  <p>
-                    <i class="fa-solid fa-phone-flip"></i>
-                    <span>Phone Number : </span>
-                  </p>
-                  <p>+212 7 07 75 23 41</p>
-                </div>
-                <div class="content">
-                  <p>
-                    <i class="fa fa-envelope"></i>
-                    <span>Email : </span>
-                  </p>
-                  <p>elbernaouiachraf@gmail.com</p>
-                </div>
-                <div class="content">
-                  <p>
-                    <i class="fa-solid fa-id-card"></i>
-                    <span>Job Status : </span>
-                  </p>
-                  <p>Freelancer</p>
-                </div>
-              </div>
-              <a href="resume.docx" class="special_btn" target="_blank"
-                >Download CV</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End about -->
-      <!-- Start Services -->
-      <div class="services section" id="services">
-        <div class="heading">
-          <h2>What i offer?</h2>
-          <p>My Services</p>
-        </div>
-        <div class="container">
-          <div class="box box_f wow slideInLeft" data-wow-offset="200">
-            <img src="images/serv_1.png" alt="" />
-            <h3>UI/UX Design</h3>
-            <p>Create a good design for your product and your Business.</p>
-          </div>
-          <div
-            class="box box_s wow slideInLeft"
-            data-wow-offset="200"
-            data-wow-delay=".2s"
-          >
-            <img src="images/serv_2.png" alt="" />
-            <h3>Web Development</h3>
-            <p>Converting any idea or design into website or web application</p>
-          </div>
-          <div
-            class="box box_t wow slideInLeft"
-            data-wow-offset="200"
-            data-wow-delay=".4s"
-          >
-            <img src="images/serv_3.png" alt="" />
-            <h3>Responsive Design</h3>
-            <p>
-              I can make your website responsive so you can show it in phones
-              and tablets
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- End Services -->
-      <!-- Start Portfolio -->
-      <div class="portfolio section" id="portfolio">
-        <div class="heading">
-          <h2>Projects</h2>
-          <p>Latest Works</p>
-        </div>
-        <div class="container">
-          <div class="box">
-            <img src="images/work_1.png" alt="Template 1" />
-            <div class="info">
-              <h3>NiceAdmin</h3>
-              <p>Dashboard with front-end technologies</p>
-              <div class="links">
-                <a
-                  href="https://github.com/EL-Bernaoui/NiceAdmin"
-                  target="_blank"
-                  class="special_btn"
-                  title="Github Repository"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://el-bernaoui.github.io/NiceAdmin/"
-                  target="_blank"
-                  class="special_btn"
-                  title="Live Demo"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/work_2.png" alt="Template 1" />
-            <div class="info">
-              <h3>Anon</h3>
-              <p>Responsive eCommerce Website</p>
-              <div class="links">
-                <a
-                  href="https://github.com/EL-Bernaoui/Anon"
-                  target="_blank"
-                  class="special_btn"
-                  title="Github Repository"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://el-bernaoui.github.io/Anon/"
-                  target="_blank"
-                  class="special_btn"
-                  title="Live Demo"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/work_3.png" alt="Template 1" />
-            <div class="info">
-              <h3>Cara</h3>
-              <p>eCommerce Website (multiple pages)</p>
-              <div class="links">
-                <a
-                  href="https://github.com/EL-Bernaoui/cara-shop"
-                  target="_blank"
-                  class="special_btn"
-                  title="Github Repository"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://el-bernaoui.github.io/cara-shop/"
-                  target="_blank"
-                  class="special_btn"
-                  title="Live Demo"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/work_4.png" alt="Template 1" />
-            <div class="info">
-              <h3>Quiz Application</h3>
-              <p>html css & javascript with api quiz</p>
-              <div class="links">
-                <a
-                  href="https://github.com/EL-Bernaoui/quiz-application"
-                  target="_blank"
-                  class="special_btn"
-                  title="Github Repository"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://el-bernaoui.github.io/quiz-application/"
-                  target="_blank"
-                  class="special_btn"
-                  title="Live Demo"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/work_5.png" alt="Template 1" />
-            <div class="info">
-              <h3>Portfolio</h3>
-              <p>Portfolio with configuration box</p>
-              <div class="links">
-                <a
-                  href="https://github.com/EL-Bernaoui/Portfolio-2"
-                  target="_blank"
-                  class="special_btn"
-                  title="Github Repository"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://el-bernaoui.github.io/Portfolio-2/"
-                  target="_blank"
-                  class="special_btn"
-                  title="Live Demo"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/work_6.png" alt="Template 1" />
-            <div class="info">
-              <h3>Calculator</h3>
-              <p>Dark / light calculator</p>
-              <div class="links">
-                <a
-                  href="https://github.com/EL-Bernaoui/Calculator"
-                  target="_blank"
-                  class="special_btn"
-                  title="Github Repository"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://el-bernaoui.github.io/Calculator/"
-                  target="_blank"
-                  class="special_btn"
-                  title="Live Demo"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Portfolio -->
-      <!-- Start Skills -->
-      <div class="skills">
-        <div class="heading">
-          <h2>My Skills</h2>
-          <p>Professional Skills</p>
-        </div>
-        <div class="container">
-          <div class="box wow fadeInDownBig" data-wow-offset="200">
-            <p class="tooltip">HTML/HTML5</p>
-            <img src="images/html_img.png" alt="html image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".1s"
-          >
-            <p class="tooltip">CSS/CSS3</p>
-            <img src="images/css_img.png" alt="css image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".2s"
-          >
-            <p class="tooltip">JAVASCRIPT</p>
-            <img src="images/js_img.png" alt="javascript image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".3s"
-          >
-            <p class="tooltip">GIT</p>
-            <img src="images/git_img.png" alt="git image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".4s"
-          >
-            <p class="tooltip">GITHUB</p>
-            <img src="images/github_img.png" alt="github image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".5s"
-          >
-            <p class="tooltip">BOOTSTRAP</p>
-            <img src="images/bootstrap_img.png" alt="Bootstrap image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".6s"
-          >
-            <p class="tooltip">SASS</p>
-            <img src="images/sass_img.png" alt="Bootstrap image" />
-          </div>
-          <div
-            class="box wow fadeInDownBig"
-            data-wow-offset="200"
-            data-wow-delay=".7s"
-          >
-            <p class="tooltip">JQUERY</p>
-            <img src="images/jquery_img.png" alt="Bootstrap image" />
-          </div>
-        </div>
-      </div>
-      <!-- End Skills -->
-      <!-- Start Contact -->
-      <div class="contact section" id="contact">
-        <div class="heading">
-          <h2>Contact Me</h2>
-          <p>Get In Touch</p>
-        </div>
-        <div class="container">
-          <div class="contact_info">
-            <h2>Contact Info</h2>
-            <ul class="ul_info">
-              <li>
-                <i class="fa-solid fa-envelope"></i>
-                <p>elbernaouiachraf@gmail.com</p>
-              </li>
+          <div class="box contact-foot">
+            <h2>Contact</h2>
+            <ul class="ul_contact">
               <li>
                 <i class="fa-solid fa-phone"></i>
                 <p>+212 707-752341</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>elbernaouiachraf@gmail.com</p>
               </li>
               <li>
                 <i class="fa-solid fa-location-dot"></i>
                 <p>Marrakech, Morocco</p>
               </li>
             </ul>
-            <ul class="ul_social1">
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="copy">
+            <p>&copy; 2022 All Rights Reserved</p>
+          </div>
+          <div class="social_media">
+            <ul class="ul_social">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/achraf-el-bernaoui-7aa426234"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://web.facebook.com/tiss.aksil.5" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/ELBRN_Achraf" target="_blank">
-                  <i class="fa-brands fa-twitter"></i>
+                <a href="https://www.instagram.com/achraf_aksil" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://t.me/aksil49" target="_blank">
-                  <i class="fa-brands fa-telegram"></i>
+                <a href="https://api.whatsapp.com/send/?phone=212707752341&text=Hello+There%EF%BF%BD&type=phone_number&app_absent=0"
+                  target="_blank">
+                  <i class="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="form_div">
-            <h2>Send a Message</h2>
-            <form action="https://formspree.io/f/mayzyoyg" method="post">
-              <div class="flex">
-                <div>
-                  <input
-                    type="text"
-                    id="f-name"
-                    name="first name"
-                    class="field"
-                    data-label=".f-name"
-                  />
-                  <label for="f-name" class="f-name">First Name</label>
-                  <div class="is-valid">Enter a valid name</div>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    id="l-name"
-                    name="last name"
-                    class="field"
-                    data-label=".l-name"
-                  />
-                  <label for="l-name" class="l-name">Last Name</label>
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="field"
-                    data-label=".email"
-                  />
-                  <label for="email" class="email">Email Address</label>
-                  <div class="is-valid">Enter a valid email</div>
-                </div>
-                <div>
-                  <input
-                    type="number"
-                    id="phone"
-                    name="phone"
-                    class="field"
-                    data-label=".phone"
-                  />
-                  <label for="phone" class="phone">Phone Number</label>
-                  <div class="is-valid">Enter a valid phone</div>
-                </div>
-                <div>
-                  <textarea
-                    id="textarea"
-                    name="message"
-                    class="field"
-                    data-label=".textarea"
-                  ></textarea>
-                  <label for="textarea" class="textarea"
-                    >Write your message here...</label
-                  >
-                  <div class="is-valid">This field can't be empty</div>
-                </div>
-              </div>
-              <button type="button" class="special_btn submit_btn">Send</button>
-            </form>
-          </div>
         </div>
       </div>
-      <!-- End Contact -->
-      <div class="spikes_2"></div>
-      <!-- Start Footer -->
-      <footer>
-        <div class="container">
-          <div class="grid">
-            <div class="box info">
-              <a href="#home">
-                <img
-                  src="images/footer_logo.png"
-                  alt="Logo"
-                  width="180"
-                  height="45"
-                />
-              </a>
-              <p>
-                Hello there. My name is Achraf. I am a web developer, and l'm
-                very passionte and dedicated To my Work
-              </p>
-            </div>
-            <div class="box links">
-              <h2>Links</h2>
-              <ul class="ul_links">
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#services">Services</a>
-                </li>
-                <li>
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-              </ul>
-            </div>
-            <div class="box contact-foot">
-              <h2>Contact</h2>
-              <ul class="ul_contact">
-                <li>
-                  <i class="fa-solid fa-phone"></i>
-                  <p>+212 707-752341</p>
-                </li>
-                <li>
-                  <i class="fa-solid fa-envelope"></i>
-                  <p>elbernaouiachraf@gmail.com</p>
-                </li>
-                <li>
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>Marrakech, Morocco</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="copyright">
-            <div class="copy">
-              <p>&copy; 2022 All Rights Reserved</p>
-            </div>
-            <div class="social_media">
-              <ul class="ul_social">
-                <li>
-                  <a
-                    href="https://web.facebook.com/tiss.aksil.5"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/achraf_aksil"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://api.whatsapp.com/send/?phone=212707752341&text=Hello+There%EF%BF%BD&type=phone_number&app_absent=0"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-whatsapp"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- End Footer -->
-    </div>
+    </footer>
+    <!-- End Footer -->
+  </div>
 
-    <!-- Font Awesome js Link -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
-      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <!-- Font Awesome js Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- WOW library -->
-    <script src="javascript/wow.min.js"></script>
+  <!-- WOW library -->
+  <script src="javascript/wow.min.js"></script>
 
-    <!-- Git Wow library Work -->
-    <script>
-      new WOW().init();
-    </script>
+  <!-- Git Wow library Work -->
+  <script>
+    new WOW().init();
+  </script>
 
-    <!-- Main Js File -->
-    <script src="javascript/script.js"></script>
-  </body>
+  <!-- Main Js File -->
+  <script src="javascript/script.js"></script>
+</body>
+
 </html>
